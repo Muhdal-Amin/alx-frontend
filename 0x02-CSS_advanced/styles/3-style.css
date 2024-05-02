@@ -1,7 +1,9 @@
+/* adding variables */
+
 :root {
     --color-primary: #d73953;
-    --color-black : #090909;
-    --color-white : #ffffff;
+    --color-black: #090909;
+    --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
@@ -12,11 +14,11 @@ html {
 }
 
 body {
-    background-color: var(--text-color);
+    color: var(--text-color);
 }
 
 a {
-    background-color: var(--text-color);
+    color: var(--text-color);
 }
 
 .visually-hidden {
@@ -24,9 +26,9 @@ a {
 }
 
 .card-category {
-    background-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    background-color: var(--color-primary);
+    color: var(--color-primary);
 }
